@@ -1,0 +1,101 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/adaptive_voice_mixer.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/flute_voice.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_pkg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_audio_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/audio_clock_gowin.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/i2s_tx_buffered.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/key_filter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/ks_voice.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/max98357_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/pressure_audio_bridge.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/pressure_keys.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/control_executor.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/control_reply_tx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_frame_rx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_uart_rx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_uart_tx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/pressure_receiver.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/piano_receiver.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/impl/temp/rtl_parser.result",
+ "Top" : "tang_primer_25k_audio_top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

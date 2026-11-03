@@ -1,0 +1,60 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\i2s_rx.sv'
+Analyzing Verilog file 'C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_tables.sv'
+Analyzing Verilog file 'C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\sample_buf.sv'
+Analyzing Verilog file 'C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\trigger_minmax.sv'
+Analyzing Verilog file 'C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\fft2048.sv'
+Analyzing Verilog file 'C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\band_map.sv'
+Analyzing Verilog file 'C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\xy_scope.sv'
+Analyzing Verilog file 'C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\frame_tx.sv'
+Analyzing Verilog file 'C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\mcu_link\link_uart_tx.sv'
+Analyzing Verilog file 'C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_top.sv'
+Compiling module 'viz_top'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_top.sv":24)
+Extracting RAM for identifier 'wave_ram'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_top.sv":236)
+Extracting RAM for identifier 'xy_ram'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_top.sv":237)
+Extracting RAM for identifier 'spec_bar_ram'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_top.sv":244)
+Extracting RAM for identifier 'spec_peak_ram'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_top.sv":245)
+Compiling module 'i2s_rx'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\i2s_rx.sv":18)
+Compiling module 'sample_buf'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\sample_buf.sv":11)
+Extracting RAM for identifier 'mem0'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\sample_buf.sv":28)
+Extracting RAM for identifier 'mem1'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\sample_buf.sv":29)
+Compiling module 'level_meter'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\sample_buf.sv":91)
+Compiling module 'viz_tables'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_tables.sv":144)
+Extracting RAM for identifier 'hann_ram'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_tables.sv":160)
+Extracting RAM for identifier 'tw_ram'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_tables.sv":161)
+Compiling module 'cordic_rot'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_tables.sv":14)
+Compiling module 'trigger_minmax'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\trigger_minmax.sv":17)
+Compiling module 'fft2048'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\fft2048.sv":22)
+Extracting RAM for identifier 'mem'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\fft2048.sv":47)
+WARN  (EX3791) : Expression size 20 truncated to fit in target size 18("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\fft2048.sv":231)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 19("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\fft2048.sv":257)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 19("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\fft2048.sv":258)
+Compiling module 'band_map'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\band_map.sv":17)
+Extracting RAM for identifier 'q_ram'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\band_map.sv":94)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\band_map.sv":189)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\band_map.sv":191)
+Compiling module 'xy_scope'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\xy_scope.sv":14)
+Extracting RAM for identifier 'x_ram'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\xy_scope.sv":49)
+Compiling module 'frame_tx'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\frame_tx.sv":15)
+Compiling module 'link_uart_tx(BAUD=2000000)'("C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\mcu_link\link_uart_tx.sv":1)
+NOTE  (EX0101) : Current top module is "viz_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\gwsynthesis\board_b.vg" completed
+[100%] Generate report file "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\gwsynthesis\board_b_syn.rpt.html" completed
+GowinSynthesis finish

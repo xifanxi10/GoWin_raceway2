@@ -1,0 +1,53 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/i2s_rx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_tables.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/sample_buf.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/trigger_minmax.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/fft2048.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/band_map.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/xy_scope.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/frame_tx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/mcu_link/link_uart_tx.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/board_b/impl/temp/rtl_parser.result",
+ "Top" : "viz_top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

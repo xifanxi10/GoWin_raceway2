@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="tang_primer_25k_audio_top" Register="21" Alu="18" Lut="56" T_Register="10830(21)" T_Alu="5319(18)" T_Lut="17312(56)" T_MULTALU27X18="17(0)" T_MULT12X12="22(0)" T_Bsram="16(0)">
+ <SubModule name="link" Register="213" Alu="124" Lut="151" T_Register="4486(213)" T_Alu="1584(124)" T_Lut="3400(151)">
+  <SubModule name="pressure_uart" Register="44" Lut="65" T_Register="44(44)" T_Lut="65(65)"/>
+  <SubModule name="control_uart" Register="50" Lut="76" T_Register="50(50)" T_Lut="76(76)"/>
+  <SubModule name="pressure_parser" Register="535" Alu="140" Lut="266" T_Register="535(535)" T_Alu="140(140)" T_Lut="266(266)"/>
+  <SubModule name="piano_parser" Register="729" Alu="140" Lut="352" T_Register="729(729)" T_Alu="140(140)" T_Lut="352(352)"/>
+  <SubModule name="pressure_store" Register="296" Alu="171" Lut="92" T_Register="296(296)" T_Alu="171(171)" T_Lut="92(92)"/>
+  <SubModule name="piano_store" Register="402" Alu="171" Lut="376" T_Register="402(402)" T_Alu="171(171)" T_Lut="376(376)"/>
+  <SubModule name="control_parser" Register="438" Alu="140" Lut="209" T_Register="438(438)" T_Alu="140(140)" T_Lut="209(209)"/>
+  <SubModule name="executor" Register="1071" Alu="667" Lut="880" T_Register="1071(1071)" T_Alu="667(667)" T_Lut="880(880)"/>
+  <SubModule name="reply_queue" Register="684" Alu="31" Lut="794" T_Register="684(684)" T_Alu="31(31)" T_Lut="794(794)"/>
+  <SubModule name="control_tx" Register="24" Lut="139" T_Register="24(24)" T_Lut="139(139)"/>
+ </SubModule>
+ <SubModule name="piano_cdc" Register="290" Alu="212" Lut="215" T_Register="290(290)" T_Alu="212(212)" T_Lut="215(215)"/>
+ <SubModule name="audio" Register="13" Alu="103" Lut="105" T_Register="6033(13)" T_Alu="3505(103)" T_Lut="13641(105)" T_MULTALU27X18="17(0)" T_MULT12X12="22(0)" T_Bsram="16(0)">
+  <SubModule name="clocks" Register="3" Lut="1" T_Register="3(3)" T_Lut="1(1)"/>
+  <SubModule name="player" Register="72" Lut="142" T_Register="72(72)" T_Lut="142(142)"/>
+  <SubModule name="vibrato_button" Register="20" Alu="16" Lut="9" T_Register="20(20)" T_Alu="16(16)" T_Lut="9(9)"/>
+  <SubModule name="shared_vibrato" Register="78" Alu="25" Lut="97" T_Register="78(78)" T_Alu="25(25)" T_Lut="97(97)"/>
+  <SubModule name="vibrato_bank" Register="512" Alu="32" Lut="376" T_Register="572(512)" T_Alu="91(32)" T_Lut="471(376)">
+   <SubModule name="calculator" Register="60" Alu="59" Lut="95" T_Register="60(60)" T_Alu="59(59)" T_Lut="95(95)"/>
+  </SubModule>
+  <SubModule name="allocator" Register="159" Alu="71" Lut="979" T_Register="159(159)" T_Alu="71(71)" T_Lut="979(979)"/>
+  <SubModule name="piano_voices[0].piano" Register="338" Alu="229" Lut="888" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="888(888)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[1].piano" Register="338" Alu="229" Lut="894" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="894(894)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[2].piano" Register="338" Alu="229" Lut="900" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="900(900)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[3].piano" Register="338" Alu="229" Lut="901" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="901(901)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[4].piano" Register="338" Alu="229" Lut="901" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="901(901)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[5].piano" Register="338" Alu="229" Lut="893" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="893(893)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[6].piano" Register="338" Alu="229" Lut="901" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="901(901)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[7].piano" Register="338" Alu="229" Lut="889" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="889(889)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[8].piano" Register="338" Alu="229" Lut="892" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="892(892)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[9].piano" Register="338" Alu="229" Lut="903" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="903(903)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[10].piano" Register="338" Alu="229" Lut="894" MULTALU27X18="1" MULT12X12="2" T_Register="338(338)" T_Alu="229(229)" T_Lut="894(894)" T_MULTALU27X18="1(1)" T_MULT12X12="2(2)"/>
+  <SubModule name="piano_voices[11].piano" Register="338" Alu="352" Lut="986" MULTALU27X18="1" Bsram="12" T_Register="338(338)" T_Alu="352(352)" T_Lut="986(986)" T_MULTALU27X18="1(1)" T_Bsram="12(12)"/>
+  <SubModule name="flute_voices[0].button" Register="20" Alu="16" Lut="9" T_Register="20(20)" T_Alu="16(16)" T_Lut="9(9)"/>
+  <SubModule name="flute_voices[0].flute" Register="66" Alu="31" Lut="45" MULTALU27X18="1" Bsram="1" T_Register="66(66)" T_Alu="31(31)" T_Lut="45(45)" T_MULTALU27X18="1(1)" T_Bsram="1(1)"/>
+  <SubModule name="flute_voices[1].button" Register="20" Alu="16" Lut="9" T_Register="20(20)" T_Alu="16(16)" T_Lut="9(9)"/>
+  <SubModule name="flute_voices[1].flute" Register="65" Alu="31" Lut="42" MULTALU27X18="1" Bsram="1" T_Register="65(65)" T_Alu="31(31)" T_Lut="42(42)" T_MULTALU27X18="1(1)" T_Bsram="1(1)"/>
+  <SubModule name="flute_voices[2].button" Register="20" Alu="16" Lut="9" T_Register="20(20)" T_Alu="16(16)" T_Lut="9(9)"/>
+  <SubModule name="flute_voices[2].flute" Register="64" Alu="30" Lut="45" MULTALU27X18="1" Bsram="1" T_Register="64(64)" T_Alu="30(30)" T_Lut="45(45)" T_MULTALU27X18="1(1)" T_Bsram="1(1)"/>
+  <SubModule name="flute_voices[3].button" Register="20" Alu="16" Lut="9" T_Register="20(20)" T_Alu="16(16)" T_Lut="9(9)"/>
+  <SubModule name="flute_voices[3].flute" Register="65" Alu="31" Lut="43" MULTALU27X18="1" Bsram="1" T_Register="65(65)" T_Alu="31(31)" T_Lut="43(43)" T_MULTALU27X18="1(1)" T_Bsram="1(1)"/>
+  <SubModule name="mixer" Register="521" Alu="82" Lut="534" MULTALU27X18="1" T_Register="521(521)" T_Alu="82(82)" T_Lut="534(534)" T_MULTALU27X18="1(1)"/>
+  <SubModule name="volume" Register="133" Alu="54" Lut="177" T_Register="133(133)" T_Alu="54(54)" T_Lut="177(177)"/>
+  <SubModule name="tx" Register="9" Alu="5" Lut="8" T_Register="66(9)" T_Alu="5(5)" T_Lut="73(8)">
+   <SubModule name="serializer" Register="57" Lut="65" T_Register="57(57)" T_Lut="65(65)"/>
+  </SubModule>
+ </SubModule>
+</Module>

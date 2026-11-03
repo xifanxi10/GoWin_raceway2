@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="viz_top" Register="168" Alu="42" Lut="205" Bsram="3" T_Register="1737(168)" T_Alu="558(42)" T_Lut="2644(205)" T_MULTALU27X18="8(0)" T_MULT12X12="1(0)" T_Bsram="17(3)">
+ <SubModule name="u_rx" Register="102" Alu="31" Lut="60" T_Register="102(102)" T_Alu="31(31)" T_Lut="60(60)"/>
+ <SubModule name="u_buf" Register="16" Lut="41" Bsram="4" T_Register="16(16)" T_Lut="41(41)" T_Bsram="4(4)"/>
+ <SubModule name="u_meter" Register="169" Alu="78" Lut="261" MULTALU27X18="1" T_Register="169(169)" T_Alu="78(78)" T_Lut="261(261)" T_MULTALU27X18="1(1)"/>
+ <SubModule name="u_tables" Register="27" Lut="62" Bsram="4" T_Register="138(27)" T_Alu="90(0)" T_Lut="626(62)" T_Bsram="4(4)">
+  <SubModule name="u_cordic" Register="111" Alu="90" Lut="564" T_Register="111(111)" T_Alu="90(90)" T_Lut="564(564)"/>
+ </SubModule>
+ <SubModule name="u_wave" Register="122" Alu="59" Lut="114" T_Register="122(122)" T_Alu="59(59)" T_Lut="114(114)"/>
+ <SubModule name="u_fft" Register="210" Alu="157" Lut="468" MULTALU27X18="7" Bsram="4" T_Register="210(210)" T_Alu="157(157)" T_Lut="468(468)" T_MULTALU27X18="7(7)" T_Bsram="4(4)"/>
+ <SubModule name="u_bands" Register="624" Alu="44" Lut="602" MULT12X12="1" Bsram="1" T_Register="624(624)" T_Alu="44(44)" T_Lut="602(602)" T_MULT12X12="1(1)" T_Bsram="1(1)"/>
+ <SubModule name="u_xy" Register="69" Alu="29" Lut="36" Bsram="1" T_Register="69(69)" T_Alu="29(29)" T_Lut="36(36)" T_Bsram="1(1)"/>
+ <SubModule name="u_tx" Register="101" Alu="28" Lut="175" T_Register="119(101)" T_Alu="28(28)" T_Lut="231(175)">
+  <SubModule name="u_tx" Register="18" Lut="56" T_Register="18(18)" T_Lut="56(56)"/>
+ </SubModule>
+</Module>

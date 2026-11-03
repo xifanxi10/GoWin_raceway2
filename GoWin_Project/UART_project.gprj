@@ -1,0 +1,35 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NC1/I0">gw5a25a-002</Device>
+    <FileList>
+        <File path="src/audio/adaptive_voice_mixer.sv" type="file.verilog" enable="1"/>
+        <File path="src/audio/flute_voice.sv" type="file.verilog" enable="1"/>
+        <File path="src/mcu_link/link_pkg.sv" type="file.verilog" enable="1"/>
+        <File path="src/board/tang_primer_25k_top.sv" type="file.verilog" enable="1"/>
+        <File path="src/board/tang_primer_25k_audio_top.sv" type="file.verilog" enable="1"/>
+        <File path="src/audio/audio_voice_core.sv" type="file.verilog" enable="1"/>
+        <File path="src/audio_teammate/audio_clock_gowin.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_teammate/i2s_tx_buffered.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_teammate/key_filter.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_teammate/ks_voice.sv" type="file.verilog" enable="1"/>
+        <File path="src/audio_teammate/max98357_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_teammate/pressure_audio_bridge.sv" type="file.verilog" enable="1"/>
+        <File path="src/audio_teammate/pressure_keys.sv" type="file.verilog" enable="1"/>
+        <File path="constraints/tang_primer_25k_audio.cst" type="file.cst" enable="1"/>
+        <File path="constraints/tang_primer_25k_audio.sdc" type="file.sdc" enable="1"/>
+        <File path="src/mcu_link/control_executor.sv" type="file.verilog" enable="1"/>
+        <File path="src/mcu_link/control_reply_tx.sv" type="file.verilog" enable="1"/>
+        <File path="src/mcu_link/link_frame_rx.sv" type="file.verilog" enable="1"/>
+        <File path="src/mcu_link/link_uart_rx.sv" type="file.verilog" enable="1"/>
+        <File path="src/mcu_link/link_uart_tx.sv" type="file.verilog" enable="1"/>
+        <File path="src/mcu_link/mcu_link_top.sv" type="file.verilog" enable="1"/>
+        <File path="src/mcu_link/pressure_receiver.sv" type="file.verilog" enable="1"/>
+        <File path="src/mcu_link/piano_receiver.sv" type="file.verilog" enable="1"/>
+        <File path="src/audio_teammate/piano_voice_simple.sv" type="file.verilog" enable="1"/>
+        <File path="src/uart_master/uart_master.v" type="file.verilog" enable="0"/>
+        <File path="src/uart_master2/uart_master.v" type="file.verilog" enable="0"/>
+    </FileList>
+</Project>

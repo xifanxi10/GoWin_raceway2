@@ -1,0 +1,44 @@
+// Tang Primer 25K + Dock 60033 audio integration image.
+IO_LOC "clk" E2;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "reset_button" H11;
+IO_PORT "reset_button" IO_TYPE=LVCMOS33 PULL_MODE=DOWN;
+IO_LOC "pressure_rx" C2;
+IO_PORT "pressure_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "ctrl_rx" B2;
+IO_PORT "ctrl_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "ctrl_tx" A1;
+IO_PORT "ctrl_tx" IO_TYPE=LVCMOS33 DRIVE=4;
+IO_LOC "max_bclk" H7;
+IO_PORT "max_bclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=4;
+IO_LOC "max_lrclk" H8;
+IO_PORT "max_lrclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=4;
+IO_LOC "max_din" L5;
+IO_PORT "max_din" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=4;
+
+// Visualisation co-processor tap.  J6-9 / J6-10 / J6-11 are unused by the
+// current top (they were the teammate's optional physical keys) and sit next
+// to the existing I2S pins, so the second board can be wired without
+// piggy-backing on the MAX98357A connectors.
+IO_LOC "i2s_mon_bclk" G7;
+IO_PORT "i2s_mon_bclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=4;
+IO_LOC "i2s_mon_lrclk" G8;
+IO_PORT "i2s_mon_lrclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=4;
+IO_LOC "i2s_mon_sd" F5;
+IO_PORT "i2s_mon_sd" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=4;
+
+IO_LOC "flute_key_n[0]" G2;
+IO_PORT "flute_key_n[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "flute_key_n[1]" J4;
+IO_PORT "flute_key_n[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "flute_key_n[2]" L2;
+IO_PORT "flute_key_n[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC "flute_key_n[3]" K1;
+IO_PORT "flute_key_n[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// E1 mode button: active-low, connect button between E1 and GND.
+IO_LOC "vibrato_key_n" E1;
+IO_PORT "vibrato_key_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;

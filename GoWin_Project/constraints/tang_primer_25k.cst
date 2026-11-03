@@ -1,0 +1,14 @@
+// Verified against core 52300 p3, Dock 60033 p1 and GW5A-25 MG121 pin list.
+IO_LOC "clk" E2;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+// S1 shorts to 3.3 V when pressed. There is no external DC pulldown.
+IO_LOC "reset_button" H11;
+IO_PORT "reset_button" IO_TYPE=LVCMOS33 PULL_MODE=DOWN;
+// Chosen MCU wiring on Dock J3, NOT the onboard USB debugger UART B3/C3.
+IO_LOC "pressure_rx" C2; // J3 pin 13 <- MCU PB10 / USART3_TX
+IO_PORT "pressure_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "ctrl_rx" B2;     // J3 pin 14 <- MCU PB6 / USART1_TX
+IO_PORT "ctrl_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "ctrl_tx" A1;     // J3 pin 17 -> MCU PB7 / USART1_RX
+IO_PORT "ctrl_tx" IO_TYPE=LVCMOS33 DRIVE=4;
+// MCU GND -> J3 pin 12. Do not connect J3 pin 11 (+5 V) to MCU UART.

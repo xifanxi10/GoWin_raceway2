@@ -1,0 +1,514 @@
+[
+ {
+  "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_top.sv",
+  "InstLine" : 3,
+  "InstName" : "tang_primer_25k_top",
+  "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_top.sv",
+  "ModuleLine" : 3,
+  "ModuleName" : "tang_primer_25k_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_top.sv",
+    "InstLine" : 47,
+    "InstName" : "link",
+    "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+    "ModuleLine" : 2,
+    "ModuleName" : "mcu_link_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 153,
+      "InstName" : "pressure_uart",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_uart_rx.sv",
+      "ModuleLine" : 3,
+      "ModuleName" : "link_uart_rx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 156,
+      "InstName" : "control_uart",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_uart_rx.sv",
+      "ModuleLine" : 3,
+      "ModuleName" : "link_uart_rx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 159,
+      "InstName" : "pressure_parser",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_frame_rx.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "link_frame_rx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 164,
+      "InstName" : "piano_parser",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_frame_rx.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "link_frame_rx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 170,
+      "InstName" : "pressure_store",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/pressure_receiver.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "pressure_receiver"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 176,
+      "InstName" : "piano_store",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/piano_receiver.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "piano_receiver"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 184,
+      "InstName" : "control_parser",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_frame_rx.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "link_frame_rx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 188,
+      "InstName" : "executor",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/control_executor.sv",
+      "ModuleLine" : 3,
+      "ModuleName" : "control_executor"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 196,
+      "InstName" : "reply_queue",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/control_reply_tx.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "control_reply_tx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 199,
+      "InstName" : "control_tx",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_uart_tx.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "link_uart_tx"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_audio_top.sv",
+  "InstLine" : 9,
+  "InstName" : "tang_primer_25k_audio_top",
+  "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_audio_top.sv",
+  "ModuleLine" : 9,
+  "ModuleName" : "tang_primer_25k_audio_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_audio_top.sv",
+    "InstLine" : 83,
+    "InstName" : "link",
+    "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+    "ModuleLine" : 2,
+    "ModuleName" : "mcu_link_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 153,
+      "InstName" : "pressure_uart",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_uart_rx.sv",
+      "ModuleLine" : 3,
+      "ModuleName" : "link_uart_rx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 156,
+      "InstName" : "control_uart",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_uart_rx.sv",
+      "ModuleLine" : 3,
+      "ModuleName" : "link_uart_rx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 159,
+      "InstName" : "pressure_parser",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_frame_rx.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "link_frame_rx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 164,
+      "InstName" : "piano_parser",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_frame_rx.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "link_frame_rx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 170,
+      "InstName" : "pressure_store",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/pressure_receiver.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "pressure_receiver"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 176,
+      "InstName" : "piano_store",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/piano_receiver.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "piano_receiver"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 184,
+      "InstName" : "control_parser",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_frame_rx.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "link_frame_rx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 188,
+      "InstName" : "executor",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/control_executor.sv",
+      "ModuleLine" : 3,
+      "ModuleName" : "control_executor"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 196,
+      "InstName" : "reply_queue",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/control_reply_tx.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "control_reply_tx"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/mcu_link_top.sv",
+      "InstLine" : 199,
+      "InstName" : "control_tx",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/mcu_link/link_uart_tx.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "link_uart_tx"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_audio_top.sv",
+    "InstLine" : 164,
+    "InstName" : "pressure_to_keys",
+    "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/pressure_keys.sv",
+    "ModuleLine" : 5,
+    "ModuleName" : "pressure_keys"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_audio_top.sv",
+    "InstLine" : 191,
+    "InstName" : "pressure_cdc",
+    "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/pressure_audio_bridge.sv",
+    "ModuleLine" : 3,
+    "ModuleName" : "pressure_audio_bridge"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_audio_top.sv",
+    "InstLine" : 209,
+    "InstName" : "piano_cdc",
+    "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/pressure_audio_bridge.sv",
+    "ModuleLine" : 3,
+    "ModuleName" : "pressure_audio_bridge"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_audio_top.sv",
+    "InstLine" : 248,
+    "InstName" : "notes_cdc",
+    "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/pressure_audio_bridge.sv",
+    "ModuleLine" : 3,
+    "ModuleName" : "pressure_audio_bridge"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/board/tang_primer_25k_audio_top.sv",
+    "InstLine" : 258,
+    "InstName" : "audio",
+    "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "audio_voice_core",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 28,
+      "InstName" : "clocks",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/audio_clock_gowin.v",
+      "ModuleLine" : 5,
+      "ModuleName" : "audio_clock_gowin"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 59,
+      "InstName" : "player",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "ModuleLine" : 249,
+      "ModuleName" : "piano_auto_player"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 85,
+      "InstName" : "vibrato_button",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/key_filter.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "key_filter"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 109,
+      "InstName" : "shared_vibrato",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 585,
+      "ModuleName" : "piano_vibrato"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 119,
+      "InstName" : "vibrato_bank",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "ModuleLine" : 434,
+      "ModuleName" : "piano_vibrato_bank",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+        "InstLine" : 452,
+        "InstName" : "calculator",
+        "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+        "ModuleLine" : 678,
+        "ModuleName" : "piano_vibrato_offset"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 131,
+      "InstName" : "allocator",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "ModuleLine" : 364,
+      "ModuleName" : "piano_key_allocator"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[0].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[1].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[2].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[3].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[4].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[5].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[6].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[7].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[8].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[9].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[10].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 147,
+      "InstName" : "piano_voices[11].piano",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/piano_voice_simple.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "piano_voice_simple"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 173,
+      "InstName" : "flute_voices[0].button",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/key_filter.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "key_filter"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 181,
+      "InstName" : "flute_voices[0].flute",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/flute_voice.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "flute_voice"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 173,
+      "InstName" : "flute_voices[1].button",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/key_filter.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "key_filter"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 181,
+      "InstName" : "flute_voices[1].flute",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/flute_voice.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "flute_voice"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 173,
+      "InstName" : "flute_voices[2].button",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/key_filter.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "key_filter"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 181,
+      "InstName" : "flute_voices[2].flute",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/flute_voice.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "flute_voice"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 173,
+      "InstName" : "flute_voices[3].button",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/key_filter.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "key_filter"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 181,
+      "InstName" : "flute_voices[3].flute",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/flute_voice.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "flute_voice"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 210,
+      "InstName" : "mixer",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/adaptive_voice_mixer.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "adaptive_voice_mixer"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 222,
+      "InstName" : "volume",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/adaptive_voice_mixer.sv",
+      "ModuleLine" : 144,
+      "ModuleName" : "master_volume"
+     },
+     {
+      "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio/audio_voice_core.sv",
+      "InstLine" : 235,
+      "InstName" : "tx",
+      "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/max98357_tx.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "max98357_tx",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/max98357_tx.v",
+        "InstLine" : 61,
+        "InstName" : "serializer",
+        "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/i2s_tx_buffered.v",
+        "ModuleLine" : 30,
+        "ModuleName" : "i2s_tx_buffered"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/ks_voice.sv",
+  "InstLine" : 5,
+  "InstName" : "ks_voice",
+  "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/ks_voice.sv",
+  "ModuleLine" : 5,
+  "ModuleName" : "ks_voice",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/ks_voice.sv",
+    "InstLine" : 157,
+    "InstName" : "envelope_unit",
+    "ModuleFile" : "C:/Users/xifan/Downloads/UART_project_upload/UART_project/src/audio_teammate/ks_voice.sv",
+    "ModuleLine" : 281,
+    "ModuleName" : "adsr_envelope"
+   }
+  ]
+ }
+]

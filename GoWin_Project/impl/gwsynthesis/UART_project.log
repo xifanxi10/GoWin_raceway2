@@ -1,0 +1,106 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\adaptive_voice_mixer.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_pkg.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\board\tang_primer_25k_top.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\board\tang_primer_25k_audio_top.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\audio_voice_core.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\audio_clock_gowin.v'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\i2s_tx_buffered.v'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\key_filter.v'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\ks_voice.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\max98357_tx.v'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\pressure_audio_bridge.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\pressure_keys.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\control_executor.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\control_reply_tx.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_frame_rx.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_uart_rx.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_uart_tx.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\mcu_link_top.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\pressure_receiver.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\piano_receiver.sv'
+Analyzing Verilog file 'C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\piano_voice_simple.sv'
+Compiling module 'tang_primer_25k_audio_top'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\board\tang_primer_25k_audio_top.sv":9)
+Compiling module 'mcu_link_top'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\mcu_link_top.sv":2)
+Compiling module 'link_uart_rx(BAUD=1000000)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_uart_rx.sv":3)
+Compiling module 'link_uart_rx'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_uart_rx.sv":3)
+Compiling module 'link_frame_rx(N=22,HEADER=16'h55aa,GAP_CLKS=250000)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_frame_rx.sv":4)
+Compiling module 'link_frame_rx(N=34,HEADER=16'h56aa,GAP_CLKS=250000)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_frame_rx.sv":4)
+Compiling module 'pressure_receiver'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\pressure_receiver.sv":1)
+Compiling module 'piano_receiver'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\piano_receiver.sv":2)
+Compiling module 'link_frame_rx(GAP_CLKS=250000)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_frame_rx.sv":4)
+Compiling module 'control_executor'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\control_executor.sv":3)
+Compiling module 'control_reply_tx'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\control_reply_tx.sv":2)
+Extracting RAM for identifier 'fifo'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\control_reply_tx.sv":15)
+Compiling module 'link_uart_tx'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_uart_tx.sv":1)
+WARN  (EX3791) : Expression size 48 truncated to fit in target size 12("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\board\tang_primer_25k_audio_top.sv":134)
+Compiling module 'pressure_keys'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\pressure_keys.sv":5)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\pressure_keys.sv":49)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 8("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\pressure_keys.sv":51)
+Compiling module 'pressure_audio_bridge'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\pressure_audio_bridge.sv":3)
+Compiling module 'pressure_audio_bridge(WIDTH=212)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\pressure_audio_bridge.sv":3)
+Compiling module 'audio_voice_core(AUTO_PLAY_ENABLED=1)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\audio_voice_core.sv":4)
+WARN  (EX3073) : Port 'CLKOUT1' remains unconnected for this instance("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\audio_clock_gowin.v":37)
+Compiling module 'audio_clock_gowin'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\audio_clock_gowin.v":5)
+Compiling module 'piano_auto_player'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\audio_voice_core.sv":249)
+Compiling module 'key_filter'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\key_filter.v":3)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 7("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\audio_voice_core.sv":103)
+Compiling module 'piano_vibrato'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\piano_voice_simple.sv":585)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\piano_voice_simple.sv":645)
+Compiling module 'piano_vibrato_bank'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\audio_voice_core.sv":434)
+Compiling module 'piano_vibrato_offset'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\piano_voice_simple.sv":678)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 6("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\piano_voice_simple.sv":715)
+Compiling module 'piano_key_allocator'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\audio_voice_core.sv":364)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\audio_voice_core.sv":420)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\audio_voice_core.sv":422)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\audio_voice_core.sv":428)
+Compiling module 'piano_voice_simple'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\piano_voice_simple.sv":4)
+Extracting RAM for identifier 'sine_rom'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\piano_voice_simple.sv":57)
+Compiling module 'flute_voice(PHASE_STEP=32'b00000001011001010011010011000011)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":5)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":299)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 17("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":301)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 16("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":308)
+Compiling module 'flute_voice(PHASE_STEP=32'b00000001110000100000110100101101)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":5)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":299)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 17("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":301)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 16("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":308)
+Compiling module 'flute_voice(PHASE_STEP=32'b00000010000101110011010001010110)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":5)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":299)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 17("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":301)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 16("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":308)
+Compiling module 'flute_voice(PHASE_STEP=32'b00000010110010100110100110000111)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":5)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":299)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 17("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":301)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 16("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv":308)
+Compiling module 'adaptive_voice_mixer(CHANNELS=16)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\adaptive_voice_mixer.sv":5)
+Extracting RAM for identifier 'hold_count'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\adaptive_voice_mixer.sv":24)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\adaptive_voice_mixer.sv":103)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\adaptive_voice_mixer.sv":105)
+Compiling module 'master_volume'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\adaptive_voice_mixer.sv":144)
+Compiling module 'max98357_tx(SAMPLE_RATE=96000)'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\max98357_tx.v":4)
+Compiling module 'i2s_tx_buffered'("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\i2s_tx_buffered.v":30)
+NOTE  (EX0101) : Current top module is "tang_primer_25k_audio_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "pressure_audio_bridge" instantiated to "notes_cdc" is swept in optimizing("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\board\tang_primer_25k_audio_top.sv":254)
+WARN  (NL0002) : The module "pressure_audio_bridge" instantiated to "pressure_cdc" is swept in optimizing("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\board\tang_primer_25k_audio_top.sv":197)
+WARN  (NL0002) : The module "pressure_keys" instantiated to "pressure_to_keys" is swept in optimizing("C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\board\tang_primer_25k_audio_top.sv":177)
+[95%] Generate netlist file "C:\Users\xifan\Downloads\UART_project_upload\UART_project\impl\gwsynthesis\UART_project.vg" completed
+[100%] Generate report file "C:\Users\xifan\Downloads\UART_project_upload\UART_project\impl\gwsynthesis\UART_project_syn.rpt.html" completed
+GowinSynthesis finish

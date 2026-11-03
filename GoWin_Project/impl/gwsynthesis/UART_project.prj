@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25A" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NC1/I0"/>
+    <FileList>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\adaptive_voice_mixer.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\flute_voice.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_pkg.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\board\tang_primer_25k_top.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\board\tang_primer_25k_audio_top.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio\audio_voice_core.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\audio_clock_gowin.v" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\i2s_tx_buffered.v" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\key_filter.v" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\ks_voice.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\max98357_tx.v" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\pressure_audio_bridge.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\pressure_keys.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\control_executor.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\control_reply_tx.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_frame_rx.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_uart_rx.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\link_uart_tx.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\mcu_link_top.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\pressure_receiver.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\mcu_link\piano_receiver.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Downloads\UART_project_upload\UART_project\src\audio_teammate\piano_voice_simple.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\xifan\Downloads\UART_project_upload\UART_project\impl\gwsynthesis\UART_project.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="tang_primer_25k_audio_top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

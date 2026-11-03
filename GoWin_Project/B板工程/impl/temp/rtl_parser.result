@@ -1,0 +1,104 @@
+[
+ {
+  "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+  "InstLine" : 24,
+  "InstName" : "viz_top",
+  "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+  "ModuleLine" : 24,
+  "ModuleName" : "viz_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+    "InstLine" : 60,
+    "InstName" : "u_rx",
+    "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/i2s_rx.sv",
+    "ModuleLine" : 18,
+    "ModuleName" : "i2s_rx"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+    "InstLine" : 90,
+    "InstName" : "u_buf",
+    "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/sample_buf.sv",
+    "ModuleLine" : 11,
+    "ModuleName" : "sample_buf"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+    "InstLine" : 108,
+    "InstName" : "u_meter",
+    "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/sample_buf.sv",
+    "ModuleLine" : 91,
+    "ModuleName" : "level_meter"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+    "InstLine" : 127,
+    "InstName" : "u_tables",
+    "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_tables.sv",
+    "ModuleLine" : 144,
+    "ModuleName" : "viz_tables",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_tables.sv",
+      "InstLine" : 178,
+      "InstName" : "u_cordic",
+      "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_tables.sv",
+      "ModuleLine" : 14,
+      "ModuleName" : "cordic_rot"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+    "InstLine" : 148,
+    "InstName" : "u_wave",
+    "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/trigger_minmax.sv",
+    "ModuleLine" : 17,
+    "ModuleName" : "trigger_minmax"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+    "InstLine" : 171,
+    "InstName" : "u_fft",
+    "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/fft2048.sv",
+    "ModuleLine" : 22,
+    "ModuleName" : "fft2048"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+    "InstLine" : 195,
+    "InstName" : "u_bands",
+    "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/band_map.sv",
+    "ModuleLine" : 17,
+    "ModuleName" : "band_map"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+    "InstLine" : 215,
+    "InstName" : "u_xy",
+    "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/xy_scope.sv",
+    "ModuleLine" : 14,
+    "ModuleName" : "xy_scope"
+   },
+   {
+    "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/viz_top.sv",
+    "InstLine" : 304,
+    "InstName" : "u_tx",
+    "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/frame_tx.sv",
+    "ModuleLine" : 15,
+    "ModuleName" : "frame_tx",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/viz/frame_tx.sv",
+      "InstLine" : 73,
+      "InstName" : "u_tx",
+      "ModuleFile" : "C:/Users/xifan/Desktop/GoWin_ep/Touch_Paino2.3_48/UART_project/src/mcu_link/link_uart_tx.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "link_uart_tx"
+     }
+    ]
+   }
+  ]
+ }
+]

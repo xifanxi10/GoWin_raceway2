@@ -1,0 +1,19 @@
+// TEMPLATE ONLY. No FPGA package pin or IO_TYPE has been confirmed.
+// Do not add this file to a build as if it were a finished board constraint.
+// MCU PB10/USART3_TX -> FPGA pressure_rx (1,000,000 baud)
+// MCU PB6 /USART1_TX -> FPGA ctrl_rx     (115,200 baud)
+// MCU PB7 /USART1_RX <- FPGA ctrl_tx     (115,200 baud)
+// Common GND required. MCU port numbers are NOT FPGA package pin numbers.
+//
+// After checking schematic, package MG121, board revision, and VCCIO:
+// IO_LOC "clk"         <confirmed clock package pin>;
+// IO_LOC "reset_n"     <confirmed reset package pin>;
+// IO_LOC "pressure_rx" <confirmed PB10-connected package pin>;
+// IO_LOC "ctrl_rx"     <confirmed PB6-connected package pin>;
+// IO_LOC "ctrl_tx"     <confirmed PB7-connected package pin>;
+// IO_PORT "pressure_rx" IO_TYPE=<confirmed bank-compatible standard>;
+// IO_PORT "ctrl_rx"     IO_TYPE=<confirmed bank-compatible standard>;
+// IO_PORT "ctrl_tx"     IO_TYPE=<confirmed bank-compatible standard>;
+//
+// mcu_link_top exposes internal downstream/debug buses: instantiate it in the
+// final instrument board top; never assign those buses to hundreds of IO pins.

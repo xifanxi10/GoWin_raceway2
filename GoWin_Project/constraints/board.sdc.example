@@ -1,0 +1,11 @@
+# TEMPLATE ONLY: CLK_HZ and clock input/PLL path must first be confirmed.
+# create_clock -name sys_clk -period <1e9 / confirmed_CLK_HZ> [get_ports {clk}]
+#
+# If the board uses a PLL, constrain the real input and generated clock instead.
+# UART RX is asynchronous: exempt only each input -> first synchronizer stage.
+# Preserve and time the rx_meta -> rx_sync path normally; inspect the mapped
+# names before adding a targeted false path. Do not exempt the whole RX module.
+# Reset assertion is asynchronous, release passes through reset_pipe[1:0].
+# Review recovery/removal and reset synchronizer timing using mapped cell names.
+# cfg_ready/release_ready/keys_released and downstream buses are same-clock
+# internal signals in the final board top, not asynchronous external IO.

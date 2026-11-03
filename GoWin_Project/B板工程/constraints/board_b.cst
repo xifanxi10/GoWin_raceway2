@@ -1,0 +1,30 @@
+// Visualisation co-processor board (second Tang Primer 25K).
+// Same device and dock as the audio board, so the pin numbers match.
+// I2S pins are inputs here: G7/G8/F5 are driven by the audio board.
+// viz_tx is the only output towards the MCU (PA3 / USART2_RX, 2 Mbps).
+
+IO_LOC "clk" E2;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "reset_button" H11;
+IO_PORT "reset_button" IO_TYPE=LVCMOS33 PULL_MODE=DOWN;
+
+// A 板 J6-9 / J6-10 / J6-11 -> B 板 J6-9 / J6-10 / J6-11
+IO_LOC "i2s_bclk" G7;
+IO_PORT "i2s_bclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "i2s_lrc" G8;
+IO_PORT "i2s_lrc" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "i2s_sd" F5;
+IO_PORT "i2s_sd" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+// Drawing-packet UART back to the MCU: J6-12 next to the I2S pins.
+IO_LOC "viz_tx" G5;
+IO_PORT "viz_tx" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+
+// Status pins on free dock pins (J5-6 / J5-7 / J5-8).
+IO_LOC "status_alive" K5;
+IO_PORT "status_alive" IO_TYPE=LVCMOS33 DRIVE=8;
+IO_LOC "status_align" K11;
+IO_PORT "status_align" IO_TYPE=LVCMOS33 DRIVE=8;
+IO_LOC "status_beat" L11;
+IO_PORT "status_beat" IO_TYPE=LVCMOS33 DRIVE=8;

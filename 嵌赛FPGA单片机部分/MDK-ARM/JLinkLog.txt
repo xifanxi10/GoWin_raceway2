@@ -1,0 +1,77 @@
+T50E0 000:006.998   SEGGER J-Link V9.62 Log File
+T50E0 000:007.297   DLL Compiled: Jul 22 2026 13:17:19
+T50E0 000:007.301   Logging started @ 2026-11-03 13:18
+T50E0 000:007.305   Process: D:\STM32_keil5\Keil_stm32\UV4\UV4.exe
+T50E0 000:007.318 - 7.308ms 
+T50E0 000:007.329 JLINK_SetWarnOutHandler(...)
+T50E0 000:007.333 - 0.005ms 
+T50E0 000:007.341 JLINK_OpenEx(...)
+T50E0 000:010.425   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T50E0 000:011.266   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T50E0 000:011.999   Decompressing FW timestamp took 437 us
+T50E0 000:018.548   Hardware: V9.60
+T50E0 000:018.560   S/N: 69610801
+T50E0 000:018.565   OEM: SEGGER
+T50E0 000:018.570   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T50E0 000:019.314   Bootloader: (FW returned invalid version)
+T50E0 000:020.210   TELNET listener socket opened on port 19021
+T50E0 000:020.272   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T50E0 000:020.419   WEBSRV Webserver running on local port 19080
+T50E0 000:020.483   Looking for J-Link GUI Server exe at: D:\STM32_keil5\Keil_stm32\ARM\Segger\JLinkGUIServer.exe
+T50E0 000:020.526   Looking for J-Link GUI Server exe at: D:\Program Files\SEGGER\JLink_V962\JLinkGUIServer.exe
+T50E0 000:020.536   Forking J-Link GUI Server: D:\Program Files\SEGGER\JLink_V962\JLinkGUIServer.exe
+T50E0 000:365.344   Failed to connect to J-Link GUI Server.
+T50E0 000:365.465 - 358.069ms returns "O.K."
+T50E0 000:365.486 JLINK_GetEmuCaps()
+T50E0 000:365.493 - 0.004ms returns 0xB9FF7BBF
+T50E0 000:365.498 JLINK_TIF_GetAvailable(...)
+T50E0 000:365.671 - 0.172ms 
+T50E0 000:365.677 JLINK_SetErrorOutHandler(...)
+T50E0 000:365.681 - 0.003ms 
+T50E0 000:365.710 JLINK_ExecCommand("ProjectFile = "C:\Users\xifan\Downloads\UART_project_upload\嵌赛FPGA单片机部分\MDK-ARM\JLinkSettings.ini"", ...). 
+T50E0 000:409.226   Ref file found at: D:\STM32_keil5\Keil_stm32\ARM\Segger\JLinkDevices.ref
+T50E0 000:409.335   REF file references invalid XML file: D:\Program Files\SEGGER\JLink_V962\JLinkDevices.xml
+T50E0 000:409.441 - 43.735ms returns 0x00
+T50E0 000:414.109 JLINK_ExecCommand("Device = STM32F429BITx", ...). 
+T50E0 000:416.071   Flash bank @ 0x08000000: SFL: Parsing sectorization info from ELF file
+T50E0 000:416.087     FlashDevice.SectorInfo[0]: .SectorSize = 0x00004000, .SectorStartAddr = 0x08000000
+T50E0 000:416.094     FlashDevice.SectorInfo[1]: .SectorSize = 0x00010000, .SectorStartAddr = 0x08010000
+T50E0 000:416.099     FlashDevice.SectorInfo[2]: .SectorSize = 0x000D0000, .SectorStartAddr = 0x08020000
+T50E0 000:416.105   FlashBank @0x08000000: Sectorization info from SFL ELF file ignored because sectorization override from DLL / XML file is active.
+T50E0 000:416.446   Flash bank @ 0x08000000: SFL: Parsing sectorization info from ELF file
+T50E0 000:416.455     FlashDevice.SectorInfo[0]: .SectorSize = 0x00004000, .SectorStartAddr = 0x08000000
+T50E0 000:416.460     FlashDevice.SectorInfo[1]: .SectorSize = 0x00010000, .SectorStartAddr = 0x08010000
+T50E0 000:416.466     FlashDevice.SectorInfo[2]: .SectorSize = 0x000D0000, .SectorStartAddr = 0x08020000
+T50E0 000:416.472   FlashBank @0x1FFF7800: Sectorization info from SFL ELF file ignored because sectorization override from DLL / XML file is active.
+T50E0 000:419.586   Device "STM32F429BI" selected.
+T50E0 000:419.841 - 5.732ms returns 0x00
+T50E0 000:419.863   ERROR: Unknown command
+T50E0 000:419.874 JLINK_GetHardwareVersion()
+T50E0 000:419.881 - 0.004ms returns 96000
+T50E0 000:419.886 JLINK_GetDLLVersion()
+T50E0 000:419.889 - 0.003ms returns 96200
+T50E0 000:419.896 JLINK_GetOEMString(...)
+T50E0 000:419.900 JLINK_GetFirmwareString(...)
+T50E0 000:419.905 - 0.005ms 
+T50E0 000:427.526 JLINK_GetDLLVersion()
+T50E0 000:427.544 - 0.017ms returns 96200
+T50E0 000:427.549 JLINK_GetCompileDateTime()
+T50E0 000:427.553 - 0.003ms 
+T50E0 000:430.023 JLINK_GetFirmwareString(...)
+T50E0 000:430.038 - 0.014ms 
+T50E0 000:433.178 JLINK_GetHardwareVersion()
+T50E0 000:433.191 - 0.012ms returns 96000
+T50E0 000:435.402 JLINK_GetSN()
+T50E0 000:435.415 - 0.012ms returns 69610801
+T50E0 000:437.646 JLINK_GetOEMString(...)
+T50E0 000:442.401 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T50E0 000:443.525 - 1.123ms returns 0x00
+T50E0 000:443.539 JLINK_HasError()
+T50E0 000:443.554 JLINK_SetSpeed(5000)
+T50E0 000:443.709 - 0.161ms 
+T50E0 000:443.724 JLINK_GetId()
+T50E0 000:443.946 - 0.221ms returns 0x00000000
+T50E0 001:826.590 JLINK_Close()
+T50E0 001:837.984 - 11.393ms
+T50E0 001:838.005   
+T50E0 001:838.009   Closed

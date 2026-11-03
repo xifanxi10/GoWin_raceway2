@@ -1,0 +1,31 @@
+Reading netlist file: "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\gwsynthesis\board_b.vg"
+Parsing netlist file "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\gwsynthesis\board_b.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\constraints\board_b.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\pnr\board_b.power.html" completed
+Generate file "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\pnr\board_b.pin.html" completed
+Generate file "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\pnr\board_b.rpt.html" completed
+Generate file "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\pnr\board_b.rpt.txt" completed
+Generate file "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\pnr\board_b.vo" completed
+Generate file "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\pnr\board_b.tr.html" completed
+Generate file "C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\pnr\board_b.tr" completed
+Sat Oct 31 13:51:16 2026
+

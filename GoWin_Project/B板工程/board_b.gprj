@@ -1,0 +1,21 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NC1/I0">gw5a25a-002</Device>
+    <FileList>
+        <File path="../src/viz/i2s_rx.sv" type="file.verilog" enable="1"/>
+        <File path="../src/viz/viz_tables.sv" type="file.verilog" enable="1"/>
+        <File path="../src/viz/sample_buf.sv" type="file.verilog" enable="1"/>
+        <File path="../src/viz/trigger_minmax.sv" type="file.verilog" enable="1"/>
+        <File path="../src/viz/fft2048.sv" type="file.verilog" enable="1"/>
+        <File path="../src/viz/band_map.sv" type="file.verilog" enable="1"/>
+        <File path="../src/viz/xy_scope.sv" type="file.verilog" enable="1"/>
+        <File path="../src/viz/frame_tx.sv" type="file.verilog" enable="1"/>
+        <File path="../src/mcu_link/link_uart_tx.sv" type="file.verilog" enable="1"/>
+        <File path="../src/viz/viz_top.sv" type="file.verilog" enable="1"/>
+        <File path="constraints/board_b.cst" type="file.cst" enable="1"/>
+        <File path="constraints/board_b.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

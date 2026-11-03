@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25A" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NC1/I0"/>
+    <FileList>
+        <File path="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\i2s_rx.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_tables.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\sample_buf.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\trigger_minmax.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\fft2048.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\band_map.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\xy_scope.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\frame_tx.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\mcu_link\link_uart_tx.sv" type="verilog"/>
+        <File path="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\src\viz\viz_top.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\xifan\Desktop\GoWin_ep\Touch_Paino2.3_48\UART_project\board_b\impl\gwsynthesis\board_b.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="viz_top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
